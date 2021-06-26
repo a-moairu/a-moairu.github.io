@@ -15,70 +15,70 @@
   <link rel="stylesheet" href="./style.css">
   <title>Amira's Portfolio</title>
 </head>
-<body>
+<body id="home">
   <section>
   <div class="header">
     <h1>Amira's Portfolio</h1>
     <div class="header-icon">
-      <i class="fab fa-github-square"></i>
-      <i class="fas fa-envelope-square"></i>
+      <a href="https://github.com/a-moairu"><i class="fab fa-github-square"></i></a>
+      <a href="mailto:atho.amira@gmail.com"><i class="fas fa-envelope-square"></i></a>
     </div>
   </div>
 
   <div class="top-navbar">
     <ul>
-      <li><a href="home">Home</a></li>
-      <li><a href="projects">Projects</a></li>
-      <li><a href="about">About</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
     </ul>
   </div>
 
   <div class="main-container">
     <h2 class="main-title"><a href="hire">Hire Me</a></h2>
-    <img src="./Background.png" class="background" alt="" />
+    <img src="./images/Background.png" class="background" alt="" />
   </div>
 
-  <div class="content">
+  <div class="content" id="projects">
+    <div class="project-header">
+      <h1>Projects</h1>
+    </div>
     <div class="content-images">
-      <div>
-        <img src="./dessert.png" alt="yummy shaved ice">
-        <h4>Project One:</h4>
-        <h3>Shaved ice</h3>
+      <div class="image-column">
+        <img src="./images/getInMyBelly.png" alt="Homepage of 'Get In My Belly' website">
+        <h3>Project One:</h3>
+        <h2><a id="project-color" href="https://github.com/haiaunht/restaurant-reviews">Get In My Belly</a></h2>
+        <p>Full-Stack Web Application that touches on the key features of basic Spring apps, such as CRUD functionality, building out internal APIs, storing photos, and search. The application allows the user to add a new restaurant, add reviews, images, and comments (optional) about the restaurants. <br>
+          <b class="technologies"> Programming technologies used: Java, React.js frontend, Spring Boot backend, PostgresSQL database.</b>
+        </p>
       </div>
-      <div>
-        <img src="./strawberryDessert.png" alt="Strawberry dessert in Japan">
-        <h4>Project Two:</h4>
-        <h3>Strawberry Dessert</h3>
+      <div class="image-column">
+        <img src="./images/endangeredAnimalsHomepage.png" alt="Homepage of 'Endangered Animals">
+        <h3>Project Two:</h3>
+        <h2><a id="project-color" href="https://github.com/paulritzman/Endangered-Animal-Adoption">Endangered Animal Adoption</a></h2>
+        <p>Full-Stack Application that utilizes CRUD functionality, internal API, dynamic routing, POST methods, async/await, etc. Also, uses Express endpoint to persists data received from Fetch to PostgresSQL database via forms.<br>
+          <b class="technologies"> Program technologies: JavaScript, Express framework, Node.js server, React.js frontend, PostgresSQL database. </b>
+        </p>
       </div>
-      <div>
-        <img src="./dessert2.png" alt="Bread and coffee">
-        <h4>Project Three:</h4>
-        <h3>Coffee and Dessert</h3>
+      <div class="image-column">
+        <img src="./images/portfolioHomepage.png" alt="Homepage of Amira's personal portfolio">
+        <h3>Project Three:</h3>
+        <h2><a id="project-color" href="https://a-moairu.github.io/">Portfolio Website</a></h2>
+        <p>Personal portfolio website that showcases a few projects that I have worked on and an 'About Me' snippet. The homepage image was taken by: me. The coding for the website was by: me. Me = Amira. Amira = proud of my work, but always striving for improvement.<br>
+          <b class="technologies"> Program technologies: JavaScript, HTML, CSS styling. </b>
+        </p>
       </div>
     </div>
-    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <div class="about-container">
+      <h1 id="about">About Me</h1>
+      <p class="text">Hello! My name is Amira, and I am a Seattle-based Full-Stack Software Engineer. I create websites and web applications. Innovation is my passion. <br>
+        <br>
+        I have a diverse set of skills, ranging from HTML + CSS + JavaScript to Java + React + SQL, building full-stack web applications (e.g. Pet Adoption Web Applications). <br>
+        <br>
+        If you are an employer looking to hire, you can get in touch with me <a href="mailto:atho.amira@gmail.com">here</a>.
+      </p>
+    </div>
   </div>
   </section>
-
-
-
-  <!-- <div class="row">
-    <div class="showcase-column">
-      <h2>Project One</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-    </div>
-
-    <div class="showcase-column">
-      <h2>Project Two</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-    </div>
-
-    <div class="showcase-column">
-      <h2>Project Three</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-    </div>
-  </div> -->
   
   <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"

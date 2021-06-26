@@ -87,6 +87,14 @@ body {
   display: block;
 }
 
+.project-header,
+#about {
+  font-size: 4vh;
+  font-variant: small-caps;
+  padding: 1vh;
+  text-align: center;
+}
+
 .content-images {
   display: flex;
   justify-content: space-around;
@@ -97,8 +105,23 @@ body {
 }
 
 .content-images img {
-  padding: 5rem 0.75rem;
-  width: 12rem;
+  padding: 0.75rem;
+  height: auto;
+  width: 100%;
+}
+
+.image-column {
+  float: left;
+  width: 50%;
+  padding: 12px;
+}
+
+.technologies {
+  color: #5cb85c;
+}
+
+#project-color {
+  color: #5bc0de;
 }
 
 .text {
@@ -106,26 +129,6 @@ body {
   font-size: 1.5rem;
 }
 
-/* .showcase-column {
-  float: left;
-  width: 33.33%;
-  padding: 25px;
-  box-sizing: border-box;
-  font-family: "Noto Sans", sans-serif;
+#about {
+  font-size: 4vh;
 }
-
-.showcase-column h2 {
-  font-family: "Permanent Marker", cursive;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .showcase-column {
-    width: 100%;
-  }
-} */
